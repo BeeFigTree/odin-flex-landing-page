@@ -10,4 +10,144 @@
     font-family: "Roboto";
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    background: #1F2937;
+    padding: 0 256px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    font-weight: 300;
+}
+
+.links {
+    display: block;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    background: #1F2937;
+    padding: 100px 256px;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.hero-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-content p {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 24;
+    color: #F9FAF8;
+}
+
+.btn {
+    padding: 5px 0;
+    width: 90px;
+    border-radius: 4px;
+    border: none;
+    color: #F9FAF8;
+}
+
+.hero-btn {
+    background: #3882f6;
+}
+
+.hero-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex: 1;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px 256px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.images {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.image {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.image-subtext {
+    width: 200px;
+    text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 50px 256px;
+    background: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
