@@ -25,10 +25,11 @@ body {
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 75px;
     align-items: center;
     background: #1F2937;
-    padding: 0 256px;
+    padding: 30px 256px 100px 256px;
 }
 
 .logo {
@@ -51,7 +52,7 @@ ul {
 .hero {
     display: flex;
     background: #1F2937;
-    padding: 100px 256px;
+    padding: 50px 256px 100px 256px;
     gap: 40px;
     justify-content: space-between;
 }
@@ -81,6 +82,7 @@ h1 {
     border-radius: 4px;
     border: none;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .hero-btn {
@@ -101,14 +103,14 @@ h1 {
     flex: 1;
     gap: 50px;
     justify-content: center;
-    padding: 50px 256px;
+    padding: 50px 256px 100px 256px;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 800;
     text-align: center;
-    padding-top: 32px;
+    padding-top: 50px;
 }
 
 .images {
@@ -128,6 +130,7 @@ h2 {
 .image-subtext {
     width: 200px;
     text-align: center;
+    font-size: 18px;
 }
 
 .quote-container {
@@ -135,7 +138,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     flex: 1;
-    padding: 50px 256px;
+    padding: 100px 256px 100px 256px;
     background: #E5E7EB;
 }
 
@@ -150,4 +153,59 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     align-self: flex-end;
+    margin-top: 10px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 256px;
+    flex: 1;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 40px 140px;
+    background: #3882f6;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.cta-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-btn {
+    border: 3px solid #E5E7EB;
+    width: 125px;
+    
+    height: 40px;
+    background: transparent;
+}
+
+h3 {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.cta-info span {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #1F2937;
+}
+
+.copyright {
+    color: #E5E7EB;
 }
