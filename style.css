@@ -182,9 +182,9 @@ h2 {
 .cta-btn {
     border: 3px solid #E5E7EB;
     width: 125px;
-    
     height: 40px;
     background: transparent;
+    align-self: center;
 }
 
 h3 {
